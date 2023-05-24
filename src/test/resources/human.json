@@ -1,0 +1,10 @@
+{
+  "name": "Dmitry",
+  "age": 37,
+  "isClever": true,
+  "hobbies": ["Snowboard", "playing the guitar"],
+  "passport": {
+    "number": 993939399,
+    "issueDate": "1 JAN 2000"
+  }
+}
