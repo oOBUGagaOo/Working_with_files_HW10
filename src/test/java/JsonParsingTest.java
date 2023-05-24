@@ -1,4 +1,5 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
+import model.PersonVariables;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -15,7 +16,7 @@ public class JsonParsingTest {
         try (InputStream is = cl.getResourceAsStream("human.json");
              InputStreamReader isr = new InputStreamReader(is)) {
 
-            HumanTests humanTests = mapper.readValue(isr, HumanTests.class);
+            PersonVariables humanTests = mapper.readValue(isr, PersonVariables.class);
 
             Assertions.assertEquals("Dmitry", humanTests.name);
             Assertions.assertEquals(37, humanTests.age);

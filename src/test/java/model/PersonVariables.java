@@ -2,7 +2,7 @@ package model;
 
 import java.util.List;
 
-public class PersonalData {
+public class PersonVariables {
     public String name;
     public Integer age;
     public Boolean isClever;
