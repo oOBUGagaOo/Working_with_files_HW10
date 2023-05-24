@@ -1,6 +1,8 @@
+package model;
+
 import java.util.List;
 
-public class HumanTests {
+public class PersonalData {
     public String name;
     public Integer age;
     public Boolean isClever;
